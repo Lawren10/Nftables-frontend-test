@@ -50,5 +50,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Lawrence Ogereka
 email lawrenceanthony70@gmal.com.
-
-git push -u origin main
