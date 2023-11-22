@@ -80,7 +80,7 @@
 
  .nf-section-box {
   @apply px-60  h-[60.625rem];
-  @apply lg:px-8 lg:h-auto lg:py-20 sm:px-4;
+  @apply 2xl:px-40 lg:px-8 lg:h-auto lg:py-20 sm:px-4;
  }
 
  .nf-flex-container {
@@ -116,8 +116,8 @@
  }
 
  .side-nav-box {
-  @apply fixed bottom-0 left-0 w-screen h-screen z-10 bg-[rgba(0,0,0,0.5)] flex items-center justify-end backdrop-blur-sm;
-  @apply translate-x-full transition-all duration-[1s] ease-in-out;
+  @apply fixed top-0 left-full w-screen h-screen z-10 bg-[rgba(0,0,0,0.5)] flex items-center justify-end backdrop-blur-sm;
+  @apply transition-all duration-[1s] ease-in-out;
  }
 
  .side-nav-box-show {
@@ -143,7 +143,7 @@
 
  .hero-section-container {
   @apply relative w-full h-[60.625rem] pt-40 px-60 bg-[url("/images/herobg.png")] bg-contain bg-no-repeat;
-  @apply lg:px-8 lg:h-[48rem] lg:bg-cover lg:bg-center md:h-[64rem] sm:px-4;
+  @apply lg:px-8 lg:h-[48rem] lg:bg-cover lg:bg-center md:h-[64rem] sm:px-4 2xl:px-40;
  }
 
  .header-article {
@@ -215,7 +215,7 @@
  .ps-figure {
   @apply relative w-[59.188rem] h-[30.313rem]  bg-[url("/images/profitingImg.png")] bg-contain bg-no-repeat;
   @apply lg:w-full lg:h-[30.813rem] lg:bg-[url("/images/profitbg2.png")] lg:bg-cover;
-  @apply sm:h-44;
+  @apply 2xl:w-[95%] sm:h-44;
  }
  .ps-figure-overlay {
   @apply absolute w-full h-full inset-0 bg-gradient-to-b from-nf-blue to-nf-purple opacity-30 bg-blend-multiply;
