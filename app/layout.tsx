@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-
 import { monument, satoshi } from "@/public/fonts/customFonts";
 import "./globals.css";
 
